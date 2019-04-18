@@ -27,7 +27,10 @@ const kennan = {
   "id": 2,
   "name": "Kennan",
   "email": "kdiben1@tinypic.com",
-  "gender": "M"
+  "gender": "M",
+  speak:function(){
+  console.log(('Hi my name is ' + kennan.name + '!'));
+  }
 }
 const keven = {
   "id": 3,
@@ -68,6 +71,7 @@ console.log(antonietta.gender);
 // Give Kennan the ability to say "Hello, my name is Kennan!" Use the console.log provided as a hint.
 // console.log(kennan.speak());
 console.log(('Hi my name is ' + kennan.name + '!'));
+kennan.speak();
 
 
 // Antonietta loves math, give her the ability to multiply two numbers together and return the product. Use the console.log provided as a hint.
